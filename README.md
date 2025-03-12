@@ -1,7 +1,7 @@
 # Proyecto de Portafolio Web 💼
 
 ## 📄 Descripción 
-Este es mi portafolio web personal, diseñado para mostrar mis habilidades 💻 y proyectos,
+Este es mi portafolio web personal, diseñado para mostrar mis habilidades y proyectos,como parte de mi certificación en programación Full Stack.
 
 ## Características Principales
 
