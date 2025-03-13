@@ -287,6 +287,10 @@ body {
 	margin-right: 0.5rem;
 }
 
+#projects-page-github {
+	margin-right: 0.5rem;
+}
+
 footer {
     background-color: var(--bg-color-contend);
     color: var(--text-btn-color);
