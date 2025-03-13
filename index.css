@@ -182,7 +182,7 @@ body {
     transition: all 1s ease-in-out;
 }
 
-.skills-item:hover {
+.skills-item:hover::before {
 	background: radial-gradient(closest-side, var(--primary-color), transparent);
     font-weight: 750;
 }
