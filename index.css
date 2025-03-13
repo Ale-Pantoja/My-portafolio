@@ -169,7 +169,7 @@ body {
     justify-content: center;
 }
 
-.skills-item {
+.skills-item::after {
 	background: radial-gradient(closest-side, var(--primary-color-light), transparent);
     color: var(--text-btn-color);
     border-radius: 0.375rem;
