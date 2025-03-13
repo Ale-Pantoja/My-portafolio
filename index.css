@@ -276,7 +276,7 @@ body {
 .projects-link:hover {
     background-color: var(--text-btn-color-dark);
     border-color: var(--text-btn-color-dark);
-    color: var(--text-btn-color);
+    color: var(--primary-color);
     font-size: 1.1rem;
     font-weight: 600;
 }
