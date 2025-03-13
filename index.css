@@ -243,7 +243,7 @@ body {
 
 .projects-descripcion {
     padding: 0.5rem;
-    max-width: 45%;
+    max-width: 70%;
 }
 
 .projects-png {
@@ -399,6 +399,7 @@ footer {
 
     #projects-list {
         align-items: center;
+	justify-content: center;
         height: 40%;
         display: flex;
     }
