@@ -109,6 +109,7 @@ body {
 #main-desc-btn:hover {
     background-color: var(--primary-color-dark);
     border-color: var(--primary-color-dark);
+	color: var(--primary-color);
     font-weight: 600;
     font-size: 1.1rem;
 }
@@ -276,7 +277,7 @@ body {
 .projects-link:hover {
     background-color: var(--text-btn-color-dark);
     border-color: var(--text-btn-color-dark);
-    color: var(--primary-color);
+    color: var(--text-btn-color);
     font-size: 1.1rem;
     font-weight: 600;
 }
