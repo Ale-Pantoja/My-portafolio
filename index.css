@@ -169,7 +169,7 @@ body {
     justify-content: center;
 }
 
-.skills-item::after {
+.skills-item {
 	background: radial-gradient(closest-side, var(--primary-color-light), transparent);
     color: var(--text-btn-color);
     border-radius: 0.375rem;
@@ -182,7 +182,7 @@ body {
     transition: all 1s ease-in-out;
 }
 
-.skills-item:hover::before {
+.skills-item {
 	background: radial-gradient(closest-side, var(--primary-color), transparent);
     font-weight: 750;
 }
