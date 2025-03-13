@@ -322,7 +322,7 @@ footer {
 	border-radius: 5px; 
 }
 
-::-webkit-scrollbar-thumb:hover {
+.scroller:hover::-webkit-scrollbar-thumb {
         background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color-dark));
 }
 
