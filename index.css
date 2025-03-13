@@ -318,12 +318,12 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: var(--primary-color);
+	    background: linear-gradient(to bottom, var(--primary-color-dark), var(--primary-color-light));
 	border-radius: 5px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-color-dark);
+        background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color-dark));
 }
 
 /* Adaptacion para Laptop/pc */
