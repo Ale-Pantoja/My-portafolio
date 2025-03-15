@@ -18,10 +18,10 @@
 	color-scheme: light dark;
     --bg-color: light-dark(#EFE8F6, #120D31);
     --bg-color-contend: light-dark(#b1afe4, #6456A1);
-	--primary-color: light-dark(#7262d8, #e9c8ff);
+	--primary-color: light-dark(#7262d8, #b1a0ee);
     --primary-color-dark: light-dark(#afa2ff, #b06df3);
 	--primary-color-light: light-dark(#7262d8, #b770ff);
-    --border-color: light-dark (#967fb1, #120d3196);
+    --border-color: light-dark (#1b003a, #120d3196);
     --text-color: light-dark(#6456A1, #ffffff);
 	--link-color: light-dark(#EFE8F6, #ffffff);
 	--footer-btn-color: light-dark(#100447, #F2F2F2);
