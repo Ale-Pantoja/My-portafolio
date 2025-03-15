@@ -82,7 +82,7 @@ body {
 	gap: 1rem;
 }
 
-#main-h2-bold {
+.main-h2-bold {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--primary-color);
@@ -140,7 +140,7 @@ body {
     font-size: 1.2rem;
 }
 
-#about-text-bold {
+.about-text-bold {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--text-bold-color);
