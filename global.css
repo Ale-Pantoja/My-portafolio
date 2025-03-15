@@ -17,13 +17,13 @@
 :root {
 	color-scheme: light dark;
     --bg-color: light-dark(#EFE8F6, #120D31);
-    --bg-color-contend: light-dark(#000, #EFE8F6);
+    --bg-color-contend: light-dark(#000, #6456A1);
 	--primary-color: light-dark(#66389b, #e9c8ff);
     --primary-color-dark: light-dark(#441877, #b06df3);
 	--primary-color-light: light-dark(#6a3c9e8c, #b770ff);
     --border-color: light-dark (#967fb1, #592b79);
     --text-color: light-dark(#9378cf, #ffffff);
-    --text-btn-color: light-dark(#EFE8F6, #372f70);
+    --text-btn-color: light-dark(#EFE8F6, #F2F2F2);
 	--text-btn-color-dark: light-dark(#8e66b9, #302385);
-    --text-bold-color: light-dark(#9378cf, #6a3c9e8c);
+	--text-about-bold-color: light-dark(#6a3c9e8c, #b8b1e7);
 }
