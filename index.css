@@ -165,11 +165,20 @@ body {
     text-align: center;
 }
 
+#skill-p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-btn-color);
+    text-align: center;
+    margin: 1.5rem;
+}
+
 #skills-list {
     display: flex; 
     flex-direction: column; 
     list-style: none;
     justify-content: center;
+    align-items: center;
 }
 
 .skills-item {
@@ -201,7 +210,6 @@ body {
     font-weight: 600;
     padding: 0.5rem;
 }
-
 
 /* Contenido de Proyectos */
 #projects-container {
@@ -294,6 +302,10 @@ body {
 	margin-right: 0.5rem;
 }
 
+
+
+
+/* Pie de pagina */
 footer {
     background-color: var(--bg-color-contend);
     color: var(--text-btn-color);
@@ -354,44 +366,7 @@ footer {
         padding: 5rem;
         text-align: center;
         font-size: 5rem;
-    }
-
-    /* Cotenido Skills */
-    #skills-container {
-        flex-direction: row;
-    }
-
-    #skills-title {
-        padding: 5rem;
-        text-align: center;
-        font-size: 3.5rem;
-    }
-
-    #skills-list {
-        flex-direction: row;
-        list-style: none;
-        justify-content: center;
-    }
-
-    .skills-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 27%;
-        width: 27%;
-    }
-
-    .skills-text {
-        justify-content: center;
-    }
-
-    .skills-png {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 43%;
-        width: 43%;
+        width: 40%;
     }
 
     /* Contenido Projects */
@@ -426,6 +401,46 @@ footer {
     .projects-link {
         width: 70%;
     }
+
+    /* Cotenido Skills */
+    #skills-container {
+        flex-direction: row;
+    }
+
+    #skills-title {
+        padding-top: 5rem;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    #skills-list {
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+
+    .skills-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 27%;
+        width: 27%;
+    }
+
+    .skills-text {
+        justify-content: center;
+    }
+
+    .skills-png {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 43%;
+        width: 43%;
+    }
+
+    
 
 }
 
