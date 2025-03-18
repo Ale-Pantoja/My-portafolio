@@ -18,9 +18,9 @@
 	color-scheme: light dark;
     --bg-color: light-dark(#EFE8F6, #120D31);
     --bg-color-contend: light-dark(#b1afe4, #6456A1);
-	--primary-color: light-dark(#7262d8, #c29cff);
-    --primary-color-dark: light-dark(#afa2ff, #b06df3);
-	--primary-color-light: light-dark(#7262d8, #b770ff);
+	--primary-color: light-dark(#7262d8, #ae83ff);
+    --primary-color-dark: light-dark(#afa2ff, #7262d8);
+	--primary-color-light: light-dark(#7262d8, #c29cff);
     --border-color: light-dark (#b6385e, #120d3196);
     --text-color: light-dark(#6456A1, #ffffff);
 	--link-color: light-dark(#EFE8F6, #ffffff);
