@@ -9,12 +9,13 @@ body {
 
 #nav {
 	background-color: var(--bg-color);
-	padding: 0 1rem;
-	height: 4rem;
+    opacity: 85%;
+    border-radius: 1rem;
 	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+	padding: 0 1rem;
+	height: 3rem;
+	margin: 0.7rem;
+    width: 97%;
 }
 
 #nav-container {
