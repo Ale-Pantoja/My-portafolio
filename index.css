@@ -102,6 +102,7 @@ body {
     border: 0.8rem solid var(--primary-color);
     border-radius: 0.375rem;
     box-shadow: 0 0 15px #7f66c48e;
+    display: flex;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.5s ease-in-out;
@@ -275,7 +276,6 @@ body {
     display: flex;
     transition: all 0.5s ease-in-out;
 }
-
 
 .projects-link:hover {
     background-color: var(--text-btn-color-dark);
