@@ -7,6 +7,7 @@ body {
 	/* height: 100vh; */
 }
 
+/* Navegador */
 #nav {
 	background-color: var(--bg-color);
     opacity: 85%;
@@ -28,8 +29,8 @@ body {
 }
 
 #nav-button {
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2rem;
+	height: 2rem;
 	border-radius: 0.375rem;
 	padding: 0.5rem;
 	background-color: var(--primary-color);
@@ -329,8 +330,65 @@ body {
 	margin-right: 0.5rem;
 }
 
+/* Conetnido Contact me */
+#contact {
+    background-color: var(--bg-color-contend);
+    height: 100%;
+    padding: 1rem;
+    justify-content: center;
+}
 
+#contact-container {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px #40356ea1;
+    padding: 1rem;
+    margin: 2rem;
+}
 
+#contact-title {
+    font-family: 'Oswald';
+	font-size: 3rem;
+	font-weight: 650;
+    text-align: center;
+}
+
+#contact-text {
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-btn-github {
+    color: var(--text-about-bold-color);
+    padding: 0.8rem;
+    transition: all 0.5s ease-in-out;
+}
+
+#contact-btn-github:hover {
+    color: var(--footer-btn-color);
+}
+
+#contact-btn-mail {
+    color: var(--text-about-bold-color);
+    height: 3rem;
+    width: 3rem;
+    padding: 0.8rem;
+    transition: all 0.5s ease-in-out;
+}
+
+#contact-btn-mail:hover {
+    color: var(--footer-btn-color);
+}
 
 /* Pie de pagina */
 footer {
@@ -342,17 +400,6 @@ footer {
     flex-direction: column;
 }
 
-#footer-btn {
-    color: var(--text-about-bold-color);
-    text-decoration: none;
-    align-items: center;
-    padding: 0.8rem;
-    transition: all 0.5s ease-in-out;
-}
-
-#footer-btn:hover {
-    color: var(--footer-btn-color);
-}
 
 /*  Estilo del Scroll */
 ::-webkit-scrollbar {
@@ -369,16 +416,24 @@ footer {
         background: linear-gradient(to bottom, var(--primary-color-light), var(--primary-color-dark));
 }
 
+
+
 /* Adaptacion para Laptop/pc */
 @media (min-width: 768px) {
+
+    /* Navegador */
 	#nav-button {
+        height: 2.5rem;
+        width: 2.5rem;
 		display: none;
+        transition: all 0.5s ease-in-out;
 	}
 
 	#nav-links-container {
 		display: flex;
 	}
 
+    /* Contenido Principal/main */
 	#main {
 		width: 70%;
         align-items: flex-start;
@@ -410,7 +465,7 @@ footer {
 
     #projects-list {
         align-items: center;
-	justify-content: center;
+	    justify-content: center;
         height: 40%;
         display: flex;
     }
@@ -465,9 +520,14 @@ footer {
         align-items: center;
         height: 43%;
         width: 43%;
-    }
+    } 
 
-    
+    /* Contenido Contact me */
+    #contact-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 
