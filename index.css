@@ -96,6 +96,10 @@ body {
     text-align: center;
 }
 
+#main-desc-container {
+    display: flex;
+}
+
 #main-desc-btn {
     background-color: var(--primary-color);
     color: var(--bg-color);
@@ -103,6 +107,7 @@ body {
     border-radius: 0.375rem;
     box-shadow: 0 0 15px #7f66c48e;
     display: flex;
+    margin: 1rem;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.5s ease-in-out;
@@ -112,6 +117,27 @@ body {
     background-color: var(--primary-color-dark);
     color: var(--text-btn-color);
     border-color: var(--primary-color-dark);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#main-desc-btn-projects {
+    background-color: var(--primary-color-dark);
+    color: var(--bg-color);
+    border: 0.8rem solid var(--primary-color-dark);
+    border-radius: 0.375rem;
+    box-shadow: 0 0 15px #7f66c48e;
+    display: flex;
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: 550;
+    transition: all 0.5s ease-in-out;
+}
+
+#main-desc-btn-projects:hover {
+    background-color: var(--primary-color);
+    color: var(--text-btn-color);
+    border-color: var(--primary-color);
     font-weight: 600;
     font-size: 1.1rem;
 }
