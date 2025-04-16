@@ -84,6 +84,10 @@ body {
 	gap: 1rem;
 }
 
+#main-text {
+	align-items: center;
+}
+
 .main-h2-bold {
     font-size: 1.2rem;
     font-weight: 600;
