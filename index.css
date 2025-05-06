@@ -180,69 +180,6 @@ body {
     color: var(--primary-color);
 }
 
-/* Contenido My skills */
-#skills-container {
-    background-color: var(--bg-color-contend);
-    color: var(--text-btn-color);
-    height: 100%;
-    padding: 1rem;
-    justify-content: center;
-}
-
-#skills-title {
-    font-family: 'Oswald';
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--text-btn-color);
-    text-align: center;
-}
-
-#skill-p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--text-btn-color);
-    text-align: center;
-    margin: 1.5rem;
-}
-
-#skills-list {
-    display: flex; 
-    flex-direction: column; 
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills-item {
-    color: var(--text-btn-color);
-    border-radius: 0.375rem;
-    display: flex;
-	flex-direction: column;
-    padding: 0.5rem;
-    margin: 1rem;
-    justify-items: center;
-    align-items: center;
-    transition: all 1s ease-in-out;
-}
-
-.skills-item:hover {
-	background: radial-gradient(closest-side, var(--primary-color), transparent);
-    font-weight: 750;
-}
-
-.skills-png {
-    color: var(--bg-color);
-    height: 45%;
-    width: 45%;
-    transition: all 0.5s ease-in-out;
-}
-
-.skills-text {
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 0.5rem;
-}
-
 /* Contenido de Proyectos */
 #projects-container {
     background-color: var(--bg-color-contend);
@@ -301,6 +238,8 @@ body {
 
 .projects-btn {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .projects-link {
@@ -324,6 +263,22 @@ body {
     font-weight: 600;
 }
 
+.skill-link {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+}
+
+#skill-link-div {
+    background-color: var(--text-about-bold-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+
 .projects-page-icon {
     height: 1.5rem;
     width: 1.5rem;
@@ -334,7 +289,7 @@ body {
 	margin-right: 0.5rem;
 }
 
-/* Conetnido Contact me */
+/* Contenido Contact me */
 #contact {
     background-color: var(--bg-color-contend);
     height: 100%;
