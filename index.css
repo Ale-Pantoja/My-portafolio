@@ -443,23 +443,6 @@ footer {
         width: 70%;
     }
 
-    /* Cotenido Skills */
-    #skills-container {
-        flex-direction: row;
-    }
-
-    #skills-title {
-        padding-top: 5rem;
-        text-align: center;
-        font-size: 3.5rem;
-    }
-
-    #skills-list {
-        flex-direction: row;
-        list-style: none;
-        justify-content: center;
-    }
-
     .skills-item {
         display: flex;
         flex-direction: column;
