@@ -17,6 +17,7 @@ body {
 	height: 3rem;
 	margin: 0.7rem;
     width: 97%;
+    z-index: 10;
 }
 
 #nav-container {
