@@ -53,11 +53,9 @@ body {
 }
 
 .nav-link:hover {
-    background-color: var(--primary-color-light);
-    border-color: 2px solid var(--primary-color-light);
     color: var(--link-color);
     border-radius: 0.375rem;
-    font-size: 1.1rem;
+    font-size: 1.11rem;
     font-weight: 600;
 }
 
@@ -79,8 +77,9 @@ body {
 .nav-phone {
     position: absolute;
     top: 4rem;
-    right: 0;
-    width: 100%;
+    right: 1rem;
+    left: 1rem;
+    width: inherit;
     height: 0;
     background-color: var(--bg-color);
     display: flex;
@@ -92,8 +91,9 @@ body {
 }
 
 .show-car {
-    height: 25rem;
-    padding: 1rem;
+    height: 17rem;
+    padding: 0.9rem;
+    margin: 0 2 0 2rem;
 }
 
 table {
