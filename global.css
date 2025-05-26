@@ -16,8 +16,8 @@
 
 :root {
 	color-scheme: light dark;
-    --bg-color: light-dark(#EFE8F6, #120D31);
-    --bg-color-contend: light-dark(#b1afe4, #6456A1);
+    --bg-color: light-dark(#fbf7ff, #120D31);
+    --bg-color-contend: light-dark(#afa2ff, #5d4f9c);
 	--primary-color: light-dark(#7262d8, #beacff);
     --primary-color-dark: light-dark(#afa2ff, #7262d8);
 	--primary-color-light: light-dark(#7262d8, #c29cff);
